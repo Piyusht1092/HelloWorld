@@ -6,7 +6,6 @@ public class Hello {
 		// TODO Auto-generated method stub
 		Scanner input  = new Scanner (new File(args[0]));
 		System.out.println("1st program of my life");
-		
 		while (input.hasNextLine()) {
 		    System.out.println(input.nextLine());
 		}
